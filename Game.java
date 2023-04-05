@@ -14,7 +14,7 @@ class Bird extends GameObject {
     private ProxyImage proxyImage; 
     private Tube[] tube; 
 
-    // Constructor
+    
     public Bird(int x, int y){
         super(x, y);
         if(proxyImage == null) {
@@ -457,7 +457,7 @@ class Window {
         
     }
 
-    // Run the application from here
+    
     public static void main(String[] args) {
 
         Game game = new Game();
